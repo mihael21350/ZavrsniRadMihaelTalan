@@ -4,7 +4,7 @@ import time
 import os
 ##Setup za Music21 i Flask
 us = environment.UserSettings()
-us['lilypondPath'] = 'static/lilypond/bin/lilypond.exe'
+us['lilypondPath'] = 'static/lilypondlinux/bin/lilypond'
 ajmo=stream.Stream()
 intervalStream=stream.Stream()
 akordStream=stream.Stream()
